@@ -3,8 +3,8 @@ class Macocr < Formula
 
   desc "macocr is a python script for OCR on macOS"
   homepage "https://github.com/rioriost/homebrew-macocr/"
-  url "https://files.pythonhosted.org/packages/09/03/8412243a8d1eaedb2301fee218250ee212d18d5a1d7b20f8b8e8a410879f/g2c-0.2.1.tar.gz"
-  sha256 "d96dc1e6368308655040b46a7be9989a736360d3dedfc54a9cc8016d8ec2a3b7"
+  url "https://files.pythonhosted.org/packages/96/20/8105b567fe8acdf7cf7afaacd4c74ec2fdf9109240f36639d18e9acaedf3/macocr-0.1.0.tar.gz"
+  sha256 "3c80797a5ebe930c363c8ad43ff35350b72c4174907df5f53e23de7d215de053"
   license "MIT"
 
   depends_on "python@3.11"
