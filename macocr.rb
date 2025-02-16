@@ -19,11 +19,6 @@ class Macocr < Formula
     sha256 "0b5a072aa23a9ead48132cb2d595b680aa6c3c5a6cb69525155e35ca95610c3a"
   end
 
-  resource "pillow-heif" do
-    url "https://files.pythonhosted.org/packages/65/f5/993804c7c626256e394f2dcb90ee739862ae22151bd7df00e014f5206573/pillow_heif-0.21.0.tar.gz"
-    sha256 "07aee1bff05e5d61feb989eaa745ae21b367011fd66ee48f7732931f8a12b49b"
-  end
-
   resource "pyobjc-core" do
     url "https://files.pythonhosted.org/packages/5c/94/a111239b98260869780a5767e5d74bfd3a8c13a40457f479c28dcd91f89d/pyobjc_core-11.0.tar.gz"
     sha256 "63bced211cb8a8fb5c8ff46473603da30e51112861bd02c438fbbbc8578d9a70"
@@ -56,7 +51,7 @@ class Macocr < Formula
 
   def install
     virtualenv_install_with_resources
-    system libexec/"bin/python", "-m", "pip", "install", "pillow"
+    system libexec/"bin/python", "-m", "pip", "install", "pillow", "pillow_heif"
   end
 
   test do
