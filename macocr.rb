@@ -15,8 +15,8 @@ class Macocr < Formula
   end
 
   resource "ocrmac" do
-    url "https://files.pythonhosted.org/packages/dd/dc/de3e9635774b97d9766f6815bbb3f5ec9bce347115f10d9abbf2733a9316/ocrmac-1.0.0.tar.gz"
-    sha256 "5b299e9030c973d1f60f82db000d6c2e5ff271601878c7db0885e850597d1d2e"
+    url "https://files.pythonhosted.org/packages/e5/f4/eef75cb750ff3e40240c8cbc713d68f8fc12b10eef016f7d4966eb05b065/ocrmac-1.0.0-py2.py3-none-any.whl"
+    sha256 "0b5a072aa23a9ead48132cb2d595b680aa6c3c5a6cb69525155e35ca95610c3a"
   end
 
   resource "pillow" do
