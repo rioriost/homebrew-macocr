@@ -1,6 +1,7 @@
 # macocr
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 
 ## Overview
 
