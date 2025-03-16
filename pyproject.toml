@@ -3,7 +3,7 @@ name = "macocr"
 authors = [
     {name = "Rio Fujita", email = "rifujita@microsoft.com"},
 ]
-version = "0.1.0"
+version = "0.1.1"
 license = {file = "LICENSE"}
 description = "macocr is a python script for OCR on macOS"
 readme = "README.md"
@@ -11,7 +11,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ocrmac>=1.0.0",
-    "pillow-heif>=0.21.0",
+    "pillow-heif>=0.22.0",
     "python-magic>=0.4.27",
 ]
 
