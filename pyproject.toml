@@ -3,7 +3,7 @@ name = "macocr"
 authors = [
     {name = "Rio Fujita", email = "rifujita@microsoft.com"},
 ]
-version = "0.1.1"
+version = "0.1.2"
 license = {file = "LICENSE"}
 description = "macocr is a python script for OCR on macOS"
 readme = "README.md"

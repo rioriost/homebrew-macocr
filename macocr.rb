@@ -3,15 +3,15 @@ class Macocr < Formula
 
   desc "macocr is a python script for OCR on macOS"
   homepage "https://github.com/rioriost/homebrew-macocr/"
-  url "https://files.pythonhosted.org/packages/b4/10/dcce9f93bfcf4efebe6932998069a1b8c57a86ddac77e917696db0df0e4b/macocr-0.1.1.tar.gz"
-  sha256 "ba4db59a0d4dce8affc077090015de3bccd3bbe449f030b370c1a714caf72a2e"
+  url "https://files.pythonhosted.org/packages/dc/a6/053eb392f94f1a34bdbf71052b08237001d169be53e5feebc47ab05b2b70/macocr-0.1.2.tar.gz"
+  sha256 "8fb0c556054842ce62c2c5da8a697687560e45c4ece9d4f247173c837d2ddf8d"
   license "MIT"
 
   depends_on "python@3.11"
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
-    sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
+    url "https://files.pythonhosted.org/packages/cd/0f/62ca20172d4f87d93cf89665fbaedcd560ac48b465bd1d92bfc7ea6b0a41/click-8.2.0.tar.gz"
+    sha256 "f5452aeddd9988eefa20f90f05ab66f17fce1ee2a36907fd30b05bbb5953814d"
   end
 
   resource "ocrmac" do
