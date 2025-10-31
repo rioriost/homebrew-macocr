@@ -3,8 +3,8 @@ class Macocr < Formula
 
   desc "macocr is a python script for OCR on macOS"
   homepage "https://github.com/rioriost/homebrew-macocr/"
-  url "https://files.pythonhosted.org/packages/cf/ed/7f8790aec2177eff0717001126061fa97eb96dabfb93c0150875a1f45bc7/macocr-0.1.7.tar.gz"
-  sha256 "2d84d61f35dceb20fed5d1cfd75c79da88de02a0d6f6145658be6f9cd6e5f9fe"
+  url "https://files.pythonhosted.org/packages/f0/c8/d551c799d776afafc9582d92f41d76e4436124c8ac6746dc67205583ee37/macocr-0.1.8.tar.gz"
+  sha256 "c277c5e587616cc90a7074197a8eb0a57a623197f53d4d99ab65266e13c58754"
   license "MIT"
 
   depends_on "python@3.11"
@@ -20,23 +20,23 @@ class Macocr < Formula
   end
 
   resource "pyobjc-core" do
-    url "https://files.pythonhosted.org/packages/e8/e9/0b85c81e2b441267bca707b5d89f56c2f02578ef8f3eafddf0e0c0b8848c/pyobjc_core-11.1.tar.gz"
-    sha256 "b63d4d90c5df7e762f34739b39cc55bc63dbcf9fb2fb3f2671e528488c7a87fe"
+    url "https://files.pythonhosted.org/packages/ab/dc/6d63019133e39e2b299dfbab786e64997fff0f145c45a417e1dd51faaf3f/pyobjc_core-12.0.tar.gz"
+    sha256 "7e05c805a776149a937b61b892a0459895d32d9002bedc95ce2be31ef1e37a29"
   end
 
   resource "pyobjc-framework-cocoa" do
-    url "https://files.pythonhosted.org/packages/4b/c5/7a866d24bc026f79239b74d05e2cf3088b03263da66d53d1b4cf5207f5ae/pyobjc_framework_cocoa-11.1.tar.gz"
-    sha256 "87df76b9b73e7ca699a828ff112564b59251bb9bbe72e610e670a4dc9940d038"
+    url "https://files.pythonhosted.org/packages/37/6f/89837da349fe7de6476c426f118096b147de923139556d98af1832c64b97/pyobjc_framework_cocoa-12.0.tar.gz"
+    sha256 "02d69305b698015a20fcc8e1296e1528e413d8cf9fdcd590478d359386d76e8a"
   end
 
   resource "pyobjc-framework-coreml" do
-    url "https://files.pythonhosted.org/packages/0d/5d/4309f220981d769b1a2f0dcb2c5c104490d31389a8ebea67e5595ce1cb74/pyobjc_framework_coreml-11.1.tar.gz"
-    sha256 "775923eefb9eac2e389c0821b10564372de8057cea89f1ea1cdaf04996c970a7"
+    url "https://files.pythonhosted.org/packages/0c/a0/875b5174794c984df60944be54df0282945f8bae4a606fbafa0c6b717ddd/pyobjc_framework_coreml-12.0.tar.gz"
+    sha256 "e1d7a9812886150881c86000fba885cb15201352c75fb286bd9e3a1819b5a4d5"
   end
 
   resource "pyobjc-framework-vision" do
-    url "https://files.pythonhosted.org/packages/40/a8/7128da4d0a0103cabe58910a7233e2f98d18c590b1d36d4b3efaaedba6b9/pyobjc_framework_vision-11.1.tar.gz"
-    sha256 "26590512ee7758da3056499062a344b8a351b178be66d4b719327884dde4216b"
+    url "https://files.pythonhosted.org/packages/0f/5a/07cdead5adb77d0742b014fa742d503706754e3ad10e39760e67bb58b497/pyobjc_framework_vision-12.0.tar.gz"
+    sha256 "942c9583f1d887ac9f704f3b0c21b3206b68e02852a87219db4309bb13a02f14"
   end
 
   resource "python-magic" do
