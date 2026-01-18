@@ -91,6 +91,9 @@ cat results/*
 
 ## Release Notes
 
+### 0.1.11 Release
+* Dependency updates
+
 ### 0.1.10 Release
 * Security updates
 

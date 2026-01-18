@@ -3,8 +3,8 @@ class Macocr < Formula
 
   desc "macocr is a python script for OCR on macOS"
   homepage "https://github.com/rioriost/homebrew-macocr/"
-  url "https://files.pythonhosted.org/packages/98/45/b9c81ce36ae52ebe8f15f59c345d937001705c181354cc8f1a9e2cd17ce9/macocr-0.1.10.tar.gz"
-  sha256 "9f187db45f9e013414c0ad06d566dd94e97d8dc4c702bb11c855e0eb74cf600e"
+  url "https://files.pythonhosted.org/packages/c4/a4/3aa2b473a0a358389c44c87423b2a7f2e8d11684d02cdbb3ce30d6b70381/macocr-0.1.11.tar.gz"
+  sha256 "57247526bc4483a9721cfe1b85cce6f2765a0c51d9d883a153ef483d9812870c"
   license "MIT"
 
   depends_on "python@3.11"
@@ -15,8 +15,8 @@ class Macocr < Formula
   end
 
   resource "ocrmac" do
-    url "https://files.pythonhosted.org/packages/e5/f4/eef75cb750ff3e40240c8cbc713d68f8fc12b10eef016f7d4966eb05b065/ocrmac-1.0.0-py2.py3-none-any.whl"
-    sha256 "0b5a072aa23a9ead48132cb2d595b680aa6c3c5a6cb69525155e35ca95610c3a"
+    url "https://files.pythonhosted.org/packages/37/15/7cc16507a2aca927abe395f1c545f17ae76b1f8ed44f43ebe4e8670ee203/ocrmac-1.0.1-py3-none-any.whl"
+    sha256 "1cef25426f7ae6bbd57fe3dc5553b25461ae8ad0d2b428a9bbadbf5907349024"
   end
 
   resource "pyobjc-core" do
